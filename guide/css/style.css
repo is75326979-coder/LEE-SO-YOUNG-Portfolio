@@ -5,28 +5,42 @@
   padding: 0;
 }
 
+body {
+  position: relative;
+  height: 100%;
+}
+
 div img {
   margin: 0 auto;
-  /* display: block; */
+  display: block;
   width: 100%;
 }
 
-.fixed {
-  position: fixed;
-  right: 100px;
-  bottom: 100px;
+.swiper {
+  width: 100%;
+  height: 100vh;
 }
 
-.fixed:hover {
-  opacity: 0.8;
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #B8A29D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.fixed2 {
-  position: fixed;
-  right: 100px;
-  bottom: 40px;
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  /* object-position: top; */
 }
 
-.fixed2:hover {
-  opacity: 0.8;
+/* 페이지 버튼 불릿 색상 바꾸기 */
+.swiper-pagination-bullet-active {
+    border-radius: 5px;
+    background-color: #a96d7e;
+    transition: all 0.5s;
 }
