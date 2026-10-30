@@ -550,7 +550,7 @@ button {
 
 .profile-body,
 .about-body {
-  padding: 5px 28px;
+  padding: 5px 10px;
 }
 
 .about-body h3 {
@@ -980,8 +980,8 @@ button {
 .thumb-video {
   display: block;
   width: 100%;
-  /* height: 100%;
-  object-fit: cover; */
+   /* height: 100%; */
+  object-fit: cover; 
 }
 
 .thumb-play-button {
